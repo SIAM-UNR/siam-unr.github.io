@@ -1,0 +1,36 @@
+<div class="sidebar">
+<div style="text-align: center; clear:both">
+  <div class="container sidebar-sticky">
+      <div class="sidebar-about" style="font-size: 3rem" align="center"><strong>
+        <a href="{{ site.url }}">
+          {{ site.title }}
+        </a></strong>
+        <!--<p class="lead">{{ site.description }}</p>-->
+    </div>
+
+    <nav class="sidebar-nav">
+      <!--<a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a> -->
+      <a class="sidebar-nav-item" href="/assets/Curriculum_Vitae.html" target="blank">CV</a>
+      <a class="sidebar-nav-item" href="/about_me/">About me</a>
+      <a class="sidebar-nav-item" href="/research/">Research</a>
+      <a class="sidebar-nav-item" href="/teaching/">Teaching</a>
+      <a class="sidebar-nav-item" href="/professionalactivities/">Professional activities</a>
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = (site.pages | sort: 'title') %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+          <!-- <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>-->
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      <a class="sidebar-nav-item" href="/contact/index.html">Contact</a>
+    </nav>
+
+  </div>
+</div>
+</div>

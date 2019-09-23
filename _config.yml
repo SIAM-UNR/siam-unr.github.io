@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Colin Grudzien'
+tagline:          'A home page'
+url:              https://cgrudz.github.io/ 
+baseurl:           
+
+author:
+  name:           'Colin Grudzien'
+  url:            https://github.com/cgrudz
+
+# Gems
+plugins: [jekyll-paginate,jekyll-gist,pygments]
+paginate:         1
+paginate_path: "page:num"
+
+# exclude stuff
+exclude: [ionicons-2.0.1]
