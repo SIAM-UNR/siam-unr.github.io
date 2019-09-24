@@ -9,7 +9,7 @@ permalink:        pretty
 title:            'SIAM&#64;UNR'
 tagline:          'The home page'
 url:              https://siam-unr.github.io 
-baseurl:          /
+baseurl:          /home/
 
 # Gems
 plugins: [jekyll-paginate,jekyll-gist,pygments]
