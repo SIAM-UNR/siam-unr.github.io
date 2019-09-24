@@ -8,8 +8,8 @@ permalink:        pretty
 # Setup
 title:            'SIAM&#64;UNR'
 tagline:          'The home page'
-url:              https://siam-unr.github.io/home 
-baseurl:          https://siam-unr.github.io/
+url:              https://siam-unr.github.io 
+baseurl:          /
 
 # Gems
 plugins: [jekyll-paginate,jekyll-gist,pygments]
