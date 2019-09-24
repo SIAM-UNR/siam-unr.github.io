@@ -6,14 +6,14 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            'Colin Grudzien'
-tagline:          'A home page'
-url:              https://cgrudz.github.io/ 
+title:            'SIAM&#64;UNR'
+tagline:          'The home page'
+url:              https://siam-unr.github.io/home/ 
 baseurl:           
 
 author:
-  name:           'Colin Grudzien'
-  url:            https://github.com/cgrudz
+  name:           
+  url:             https://siam-unr.github.io/home/
 
 # Gems
 plugins: [jekyll-paginate,jekyll-gist,pygments]
